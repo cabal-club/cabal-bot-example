@@ -1,0 +1,13 @@
+{
+  "name": "cabal-bot-example",
+  "version" : "1.0.0",
+  "scripts": {
+    "start": "node bot.js --nick ucbot --channel bots -d .datadir cabal://14bc77d788fdaf07b89b28e9d276e47f2e44011f4adb981921056e1b3b40e99e"
+  },
+  "dependencies": {
+    "cabal-core": "^5.1.1",
+    "level": "^5.0.1",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}
